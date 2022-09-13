@@ -117,12 +117,12 @@ ISSN 0022-1031,
 https://doi.org/10.1016/j.jesp.2015.10.002.
 (https://www.sciencedirect.com/science/article/pii/S0022103115300020)
 
-[^chambers-2019] Chambers, C., The Seven Deadly Sins of Psychology: A Manifesto for Reforming the Culture of Scientific Practice (Princeton University Press, 2019)
+[^chambers-2019]: Chambers, C., The Seven Deadly Sins of Psychology: A Manifesto for Reforming the Culture of Scientific Practice (Princeton University Press, 2019)
 
-[^stroebe-2014] Stroebe W, Strack F. The Alleged Crisis and the Illusion of Exact Replication. Perspect Psychol Sci. 2014 Jan;9(1):59-71. doi: 10.1177/1745691613514450. PMID: 26173241.
+[^stroebe-2014]: Stroebe W, Strack F. The Alleged Crisis and the Illusion of Exact Replication. Perspect Psychol Sci. 2014 Jan;9(1):59-71. doi: 10.1177/1745691613514450. PMID: 26173241.
 
-[^osc-2015] Open Science Collaboration. PSYCHOLOGY. Estimating the reproducibility of psychological science. Science. 2015 Aug 28;349(6251):aac4716. doi: 10.1126/science.aac4716. PMID: 26315443.
+[^osc-2015]: Open Science Collaboration. PSYCHOLOGY. Estimating the reproducibility of psychological science. Science. 2015 Aug 28;349(6251):aac4716. doi: 10.1126/science.aac4716. PMID: 26315443.
 
-[^firestein-2016] Firestein, S., Failure: Why Science is So Successful (Oxford University Press, 2016)
+[^firestein-2016]: Firestein, S., Failure: Why Science is So Successful (Oxford University Press, 2016)
 
-[^popper-1959] K. R. Popper, The Logic of Scientific Discovery (Basic Books, Inc., 1959).
+[^popper-1959]: K. R. Popper, The Logic of Scientific Discovery (Basic Books, Inc., 1959).
