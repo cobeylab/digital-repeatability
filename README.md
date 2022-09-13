@@ -1,3 +1,8 @@
+# Digital Validation in Research
+
+### The Science of Repeatability
+
+
 ## Motivation
 
 Modern research often relies on data and source code to produce results. These materials will be used again and again as verification to authors themselves, and to the community by way of data and source code along with the papers to which they pertain. In many cases, the actual conclusions will rest on the execution of particular lines of source code with the right input. These types of calculations are too difficult to do by hand, or to prove algebraically, and so faith in the reliability of computer hardware and software is existential. In either case -- whether the code is simply demonstrating the results, or supporting them -- the quality is at least a practical part of modern inquiry, to authors and readers alike.
@@ -19,13 +24,13 @@ And all levels rest on the very lowest bar, "completeness,"  meaning _enough_ in
 
 _Verification on a Spectrum_
 
-Digital Runnability: Analysis runs to completion and output superficially supports that it ran as intended.
-Digital Repeatability: Analysis generates results, which are comparable, but may differ from the published result.
-Digital Reproducibility: Analysis runs and output is the same as the published result.
-Scientific Conceptual Replicability: Different methods confirm the published result.
-Scientific Reproducibility: Same methodology on the same statistical population confirm the published result. Also known as direct, or exact replication.
-Scientific Replicability: Same methodology with a different statistical population confirm the published result.
-Scientific Generalizability: Different analysis on a different statistical population confirms the published result.
+* _Digital Runnability_: Analysis runs to completion and output superficially supports that it ran as intended.
+* _Digital Repeatability_: Analysis generates results, which are comparable, but may differ from the published result.
+* _Digital Reproducibility_: Analysis runs and output is the same as the published result.
+* _Scientific Conceptual Replicability_: Different methods confirm the published result.
+* _Scientific Reproducibility_: Same methodology on the same statistical population confirm the published result. Also known as direct, or exact replication.
+* _Scientific Replicability_: Same methodology with a different statistical population confirm the published result.
+* _Scientific Generalizability_: Different analysis on a different statistical population confirms the published result.
 
 Note: Which definition goes with which word for some of these terms varies by discipline<sup>[8](#nas-2019)</sup>.
 
@@ -86,21 +91,23 @@ TBD
 
 ## References
 
-[](#barnes-2010) Barnes, N. Publish your computer code: it is good enough. Nature 467, 753 (2010). https://doi.org/10.1038/467753a
+[1](#barnes-2010) Barnes, N. Publish your computer code: it is good enough. Nature 467, 753 (2010). https://doi.org/10.1038/467753a
 
-[](#stark-2018)Stark PB. Before reproducibility must come preproducibility. Nature. 2018 May;557(7707):613. doi: 10.1038/d41586-018-05256-0. PMID: 29795524.
+[2](#ioannidis-2008) Ioannidis JP, Allison DB, Ball CA, Coulibaly I, Cui X, Culhane AC, Falchi M, Furlanello C, Game L, Jurman G, Mangion J, Mehta T, Nitzberg M, Page GP, Petretto E, van Noort V. Repeatability of published microarray gene expression analyses. Nat Genet. 2009 Feb;41(2):149-55. doi: 10.1038/ng.295. Epub 2008 Jan 28. PMID: 19174838.
 
-[](#baker-2016) Baker, M. 1,500 scientists lift the lid on reproducibility. Nature 533, 452–454 (2016). https://doi.org/10.1038/533452a
+[3](#eglen-2019) Eglen, S., & Nüst, D. (2019). CODECHECK: An open-science initiative to facilitate the sharing of computer programs and results presented in scientific publications. Septentrio Conference Series, (1). https://doi.org/10.7557/5.4910
 
-[](#wicherts-2006) Wicherts, Jelte & Borsboom, Denny & Kats, Judith & Molenaar, Dylan. (2006). The poor availability of psychological research data for reanalysis. The American psychologist. 61. 726-8. 10.1037/0003-066X.61.7.726.
+[4](#stark-2018)Stark PB. Before reproducibility must come preproducibility. Nature. 2018 May;557(7707):613. doi: 10.1038/d41586-018-05256-0. PMID: 29795524.
 
-[](#piwowar-2013) Piwowar HA, Vision TJ. Data reuse and the open data citation advantage. PeerJ. 2013 Oct 1;1:e175. doi: 10.7717/peerj.175. PMID: 24109559; PMCID: PMC3792178.
+[5](#wicherts-2006) Wicherts, Jelte & Borsboom, Denny & Kats, Judith & Molenaar, Dylan. (2006). The poor availability of psychological research data for reanalysis. The American psychologist. 61. 726-8. 10.1037/0003-066X.61.7.726.
 
-[](#ioannidis-2008) Ioannidis JP, Allison DB, Ball CA, Coulibaly I, Cui X, Culhane AC, Falchi M, Furlanello C, Game L, Jurman G, Mangion J, Mehta T, Nitzberg M, Page GP, Petretto E, van Noort V. Repeatability of published microarray gene expression analyses. Nat Genet. 2009 Feb;41(2):149-55. doi: 10.1038/ng.295. Epub 2008 Jan 28. PMID: 19174838.
+[6](#baker-2016) Baker, M. 1,500 scientists lift the lid on reproducibility. Nature 533, 452–454 (2016). https://doi.org/10.1038/533452a
 
-[](#eglen-2019) Eglen, S., & Nüst, D. (2019). CODECHECK: An open-science initiative to facilitate the sharing of computer programs and results presented in scientific publications. Septentrio Conference Series, (1). https://doi.org/10.7557/5.4910
+[7](#piwowar-2013) Piwowar HA, Vision TJ. Data reuse and the open data citation advantage. PeerJ. 2013 Oct 1;1:e175. doi: 10.7717/peerj.175. PMID: 24109559; PMCID: PMC3792178.
 
-[](#crandall-2016) Christian S. Crandall, Jeffrey W. Sherman,
+[8](#nas-2019) National Academies of Sciences, Engineering, and Medicine; Policy and Global Affairs; Committee on Science, Engineering, Medicine, and Public Policy; Board on Research Data and Information; Division on Engineering and Physical Sciences; Committee on Applied and Theoretical Statistics; Board on Mathematical Sciences and Analytics; Division on Earth and Life Studies; Nuclear and Radiation Studies Board; Division of Behavioral and Social Sciences and Education; Committee on National Statistics; Board on Behavioral, Cognitive, and Sensory Sciences; Committee on Reproducibility and Replicability in Science. Reproducibility and Replicability in Science. Washington (DC): National Academies Press (US); 2019 May 7. 3, Understanding Reproducibility and Replicability. Available from: https://www.ncbi.nlm.nih.gov/books/NBK547546/
+
+[9](#crandall-2016) Christian S. Crandall, Jeffrey W. Sherman,
 On the scientific superiority of conceptual replications for scientific progress,
 Journal of Experimental Social Psychology,
 Volume 66,
@@ -110,14 +117,12 @@ ISSN 0022-1031,
 https://doi.org/10.1016/j.jesp.2015.10.002.
 (https://www.sciencedirect.com/science/article/pii/S0022103115300020)
 
-[](#chambers-2019) Chambers, C., The Seven Deadly Sins of Psychology: A Manifesto for Reforming the Culture of Scientific Practice (Princeton University Press, 2019)
+[10](#chambers-2019) Chambers, C., The Seven Deadly Sins of Psychology: A Manifesto for Reforming the Culture of Scientific Practice (Princeton University Press, 2019)
 
-[](#nas-2019) National Academies of Sciences, Engineering, and Medicine; Policy and Global Affairs; Committee on Science, Engineering, Medicine, and Public Policy; Board on Research Data and Information; Division on Engineering and Physical Sciences; Committee on Applied and Theoretical Statistics; Board on Mathematical Sciences and Analytics; Division on Earth and Life Studies; Nuclear and Radiation Studies Board; Division of Behavioral and Social Sciences and Education; Committee on National Statistics; Board on Behavioral, Cognitive, and Sensory Sciences; Committee on Reproducibility and Replicability in Science. Reproducibility and Replicability in Science. Washington (DC): National Academies Press (US); 2019 May 7. 3, Understanding Reproducibility and Replicability. Available from: https://www.ncbi.nlm.nih.gov/books/NBK547546/
+[11](#stroebe-2014) Stroebe W, Strack F. The Alleged Crisis and the Illusion of Exact Replication. Perspect Psychol Sci. 2014 Jan;9(1):59-71. doi: 10.1177/1745691613514450. PMID: 26173241.
 
-[](#stroebe-2014) Stroebe W, Strack F. The Alleged Crisis and the Illusion of Exact Replication. Perspect Psychol Sci. 2014 Jan;9(1):59-71. doi: 10.1177/1745691613514450. PMID: 26173241.
+[12](#osc-2015) Open Science Collaboration. PSYCHOLOGY. Estimating the reproducibility of psychological science. Science. 2015 Aug 28;349(6251):aac4716. doi: 10.1126/science.aac4716. PMID: 26315443.
 
-[](#osc-2015) Open Science Collaboration. PSYCHOLOGY. Estimating the reproducibility of psychological science. Science. 2015 Aug 28;349(6251):aac4716. doi: 10.1126/science.aac4716. PMID: 26315443.
+[13](#firestein-2016) Firestein, S., Failure: Why Science is So Successful (Oxford University Press, 2016)
 
-[](#firestein-2016) Firestein, S., Failure: Why Science is So Successful (Oxford University Press, 2016)
-
-[](#popper-1959) K. R. Popper, The Logic of Scientific Discovery (Basic Books, Inc., 1959).
+[14](#popper-1959) K. R. Popper, The Logic of Scientific Discovery (Basic Books, Inc., 1959).
