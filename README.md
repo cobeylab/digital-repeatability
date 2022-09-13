@@ -29,43 +29,42 @@ Scientific Generalizability: Different analysis on a different statistical popul
 
 Note: Which definition goes with which word for some of these terms varies by discipline<sup>[8](#nas-2019)</sup>.
 
-There is some debate about whether conceptual replication deserves to be higher[9](#crandall-2016) or lower[10](#chambers-2019) than exact replication. There's debate about the value of exact replication since, for instance, populations change over time[11](#stroebe-2014). And whether irreproducibility is a problem[12](#osc-2015) or unavoidable[13](#firestein-2016). However, all of these authors agree irreproducibility is _some kind of error_, whether necessary, forgivable, or regrettable. Karl Popper's opinion, that science and reproduction are inextricably linked, is deferred to throughout:
+There is some debate about whether conceptual replication deserves to be higher<sup>[9](#crandall-2016)</sup> or lower<sup>[10](#chambers-2019)</sup> than exact replication. There's debate about the value of exact replication since, for instance, populations change over time<sup>[11](#stroebe-2014)</sup>. And whether irreproducibility is a problem<sup>[12](#osc-2015)</sup> or unavoidable<sup>[13](#firestein-2016)</sup>. However, all of these authors agree irreproducibility is _some kind of error_, whether necessary, forgivable, or regrettable. Karl Popper's opinion, that science and reproduction are inextricably linked, is deferred to throughout:
 
-"Indeed the scientifically significant physical effect may be defined as that which can be regularly reproduced by anyone who carries out the appropriate experiment in the way prescribed."[14](#popper-1959)
+"Indeed the scientifically significant physical effect may be defined as that which can be regularly reproduced by anyone who carries out the appropriate experiment in the way prescribed."<sup>[14](#popper-1959)</sup>
 
 
 ### Variables that affect digital repeatability
 
 **Hardware**
 
-Resources such as amount of hard drive space or memory.
-CPU Architecture
-Network connectivity
-GPU Architecture
+* Resources such as amount of hard drive space or memory.
+* CPU Architecture
+* Network connectivity
+* GPU Architecture
 
 **Software**
 
-Operating System and version
-Source code version
-Programming language version
-Compiler or interpreter (often determined by the language version, but not always)
-Library versions
-System libraries
-Standalone software versions (BLAST, MAFFT, OpenCV)
-Configuration including [environment variables](https://en.wikipedia.org/wiki/Environment_variable) and user preferences.
-Input (in the computational sense, meaning study data, and all parameters)
+* Operating System and version
+* Source code version
+* Programming language version
+* Compiler or interpreter (often determined by the language version, but not always)
+* Library versions
+* System libraries
+* Standalone software versions (BLAST, MAFFT, OpenCV)
+* Configuration including [environment variables](https://en.wikipedia.org/wiki/Environment_variable) and user preferences.
+* Input (in the computational sense, meaning study data, and all parameters)
 
 Control, or accounting for, every one of these variables is difficult other than in [containerized](#containers) environments, but they all do vary, and change over time.
 
 In practical terms, only a few of these account for the majority of preventable repeatability problems:
 
-Operating system
-Source code version. (The contents of the source code that is being run.)
-Programming language version
-Library versions
-Standalone software
-Input
-
+* Operating system
+* Source code version. (The contents of the source code that is being run.)
+* Programming language version
+* Library versions
+* Standalone software
+* Input
 
 Configuration is also a potent variable but, in general, no configuration should be used that isn't explicitly included in a repository for reproduction, whereas it is usually _necessary_ to use libraries, for instance.
 
