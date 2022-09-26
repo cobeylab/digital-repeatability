@@ -117,6 +117,8 @@ The solution to controlling all of these variables on readers' machines and achi
 
 [^herndon-2014]: Herndon, Thomas, et al. “Does High Public Debt Consistently Stifle Economic Growth? A Critique of Reinhart and Rogoff.” Cambridge Journal of Economics, vol. 38, no. 2, 2014, pp. 257–79. JSTOR, http://www.jstor.org/stable/24694929.
 
+[^wicherts-2011]: Wicherts, Jelte M., et al. “Willingness to Share Research Data Is Related to the Strength of the Evidence and the Quality of Reporting of Statistical Results.” PLoS ONE, edited by Rochelle E. Tractenberg, vol. 6, no. 11, Public Library of Science (PLoS), Nov. 2011, p. e26828. https://doi.org/10.1371/journal.pone.0026828.
+
 [^nas-2019]: National Academies of Sciences, Engineering, and Medicine; Policy and Global Affairs; Committee on Science, Engineering, Medicine, and Public Policy; Board on Research Data and Information; Division on Engineering and Physical Sciences; Committee on Applied and Theoretical Statistics; Board on Mathematical Sciences and Analytics; Division on Earth and Life Studies; Nuclear and Radiation Studies Board; Division of Behavioral and Social Sciences and Education; Committee on National Statistics; Board on Behavioral, Cognitive, and Sensory Sciences; Committee on Reproducibility and Replicability in Science. Reproducibility and Replicability in Science. Washington (DC): National Academies Press (US); 2019 May 7. 3, Understanding Reproducibility and Replicability. Available from: https://www.ncbi.nlm.nih.gov/books/NBK547546/
 
 [^crandall-2016]: Christian S. Crandall, Jeffrey W. Sherman,
