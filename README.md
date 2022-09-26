@@ -117,7 +117,7 @@ ISSN 0022-1031,
 https://doi.org/10.1016/j.jesp.2015.10.002.
 (https://www.sciencedirect.com/science/article/pii/S0022103115300020)
 
-[^chambers-2019]: Chambers, C., The Seven Deadly Sins of Psychology: A Manifesto for Reforming the Culture of Scientific Practice (Princeton University Press, 2019)
+[^chambers-2019]: Chambers, C., The Seven Deadly Sins of Psychology: A Manifesto for Reforming the Culture of Scientific Practice (Princeton University Press, 2019) pp. 25-27, 64-73
 
 [^stroebe-2014]: Stroebe W, Strack F. The Alleged Crisis and the Illusion of Exact Replication. Perspect Psychol Sci. 2014 Jan;9(1):59-71. doi: 10.1177/1745691613514450. PMID: 26173241.
 
