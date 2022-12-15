@@ -23,7 +23,7 @@ It's for these reasons that digital reproducibility can be understood as part of
 
 _Incentives_
 
-Digital replication is also important to the working scientist because publishing and funding incentives are changing. Many publishers and funders already require data and code sharing, and signs suggest the trend is increasing. Funders such as NIH[^nih-2022] and NSF[^nsf-2022] have emphasized reproducibility and data sharing. The Journal of the American Statistical Association now has eight[^jasa-2022] reproducibility editors who "enforce the requirement that the data and code that support the claims in an article are made available."[^baker-2016] Funders and publishers who follow recent results in metascience[[[[]]]]] may tend to require more guarantees. Replication research in 2021 continues to find problems in with analytical, and scientific replication[^errington-2021].
+Digital replication is also important to the working scientist because publishing and funding incentives are changing. Many publishers and funders already require data and code sharing, and signs suggest the trend is increasing. Funders such as NIH[^nih-2022] and NSF[^nsf-2022] have emphasized reproducibility and data sharing. The Journal of the American Statistical Association now has eight[^jasa-2022] reproducibility editors who "enforce the requirement that the data and code that support the claims in an article are made available."[^baker-2016] Funders and publishers who follow recent results in metascience[^osc-2015] may tend to require more guarantees. Replication research in 2021 continues to find problems in with analytical, and scientific replication[^errington-2021].
 
 It's estimated that only about 9% of papers include publication of "full primary raw data"[^alsheikh-ali-2011], and the availability of data decreases rapidly with age[^vines-2014]. Despite this, there are dangers to withholding materials, and apparent benefits for those who share. Withholding materials decreases, as one would expect, replication[^baker-2-2016], and sharing it is associated with a higher citation rate[^piwowar-2013].
 
@@ -34,7 +34,7 @@ The lowest level of verifiability rests on "completeness,"  meaning _enough_ inf
 
 Assuming enough information has been provided to test any claims, the spectrum starts with the ability to mechanically execute the steps provided, regardless of outcome. Initiatives like [CODECHECK](https://codecheck.org.uk/) have a purposefully low bar: "check[ing that] the code runs and generates the expected number of output files."[^eglen-2019] This could be called "Runnability."
 
-[_Table 1. The Spectrum of Verifiability_](#table-1)
+#### Table 1. The Spectrum of Verifiability
 
 * _Digital Runnability_: Analysis runs to completion and output superficially supports that it ran as intended.
 * _Digital Repeatability_: Analysis generates results, which are comparable, but may differ from the published result.
