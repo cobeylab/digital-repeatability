@@ -63,7 +63,7 @@ Some details cannot be reliably omitted such as the version of the language and 
 It's also important to remember that the conditions are always future conditions. If some of the input, or software, changes because it depends on a resource on the internet that may change over time, the likelihood of achieving repeatability drops significantly[^vines-2014].
 
 
-_Sources of Variation_
+#### Table 2. Sources of Variation
 
 **Hardware**
 
