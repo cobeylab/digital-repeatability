@@ -36,6 +36,7 @@ Assuming enough information has been provided to test any claims, the spectrum s
 
 There is one discontinuity in the spectrum where results are not expected to be statistically the same (drawn from the same theoretical distribution, or the same population). Concepts like _conceptual replication_ don't fit neatly into a spectrum since the amount of confirmation is subject to interpretation. _Scientific generalizability, and replicability_ are among the highest goals of science, and may depend on support all the way down to data sharing, but defining them in terms of _what has been precisely repeated_ is beyond the current scope.
 
+The appearance of generalizability can also work against other types of verification because it seems to imply lesser verification has already been done. This was the case with _priming_ in psychology, a hypothesis that was conceptually confirmed several times, but failed simple reproduction[^yong-2012].
 
 #### Table 1. The Reproducibility Spectrum
 
@@ -153,6 +154,8 @@ The conditions necessary for scientific and those necessary for digital verifica
 [^errington-2021]: Timothy M Errington, Maya Mathur, Courtney K Soderberg, Alexandria Denis, Nicole Perfito, Elizabeth Iorns, Brian A Nosek (2021) Investigating the replicability of preclinical cancer biology eLife 10:e71601. https://doi.org/10.7554/eLife.71601
 
 [^eglen-2019]: Eglen, S., & Nüst, D. (2019). CODECHECK: An open-science initiative to facilitate the sharing of computer programs and results presented in scientific publications. Septentrio Conference Series, (1). https://doi.org/10.7557/5.4910
+
+[^yong-2012]: Yong, E. (2012). Replication studies: Bad copy. Nature, 485(7398), 298–300. https://doi.org/10.1038/485298a
 
 [^stark-2018]: Stark PB. Before reproducibility must come preproducibility. Nature. 2018 May;557(7707):613. doi: 10.1038/d41586-018-05256-0. PMID: 29795524.
 
