@@ -2,22 +2,22 @@
 
 ### The Science of Repeatability
 
+_Alex Byrnes, Christopher Russo, Marcos Vieira_
 
 ## Introduction
 
-Repeatability, in science and computation, is conceptually very simple. Make conditions the same, as exactly as necessary, and the process will repeat. Drop an apple and it will fall. There are, of course, details that can be omitted. Knowing which details are which is essential to describing any scientific result.
+Repeatability, in science and computation, is conceptually very simple. Make conditions the same, as exactly as necessary, and the process will repeat. Drop an apple and it will fall. There are, of course, details that can be omitted. Knowing which details are indispensable is essential to ensuring repeatability.
 
 ## Motivation
 
-"An article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures." -- Jonathan Buckheit and David Donoho (1995), paraphrasing Jon Claerbout[^nas-2017]
+"An article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures." &mdash; Jonathan Buckheit and David Donoho (1995), paraphrasing Jon Claerbout[^nas-2017]
 
-The challenge of reproducing the computation involved in a research finding was first described in the early 1990s[^claerbout-1992] when distribution of source code and data -- on CD ROMs -- was in its infancy. Since then, dissemination has become easier, but validating complex computer programs and verifying their agreement with a paper has become more difficult.
+The challenge of reproducing the computation involved in a research finding was first described in the early 1990s[^claerbout-1992] when distribution of source code and data &mdash; on CD ROMs &mdash; was in its infancy. Since then, dissemination has become easier, but validating complex computer programs and verifying their agreement with a paper has become more difficult.
 
-In some ways, the complexity of code, and amount of computing power used, has made it more likely that a finding is only discernable by asking a computer. So the modern computer has begun to resemble any other instrument in that the findings themselves depend on it. A bug may convince both researchers and readers of something that's not real, in other words.
 
-The phenomenon -- results that depend on a bug -- has occurred even with a simple computation with high stakes, in the case of the economics paper "Growth in a Time of Debt" in which an Excel error invalidated the conclusions and had implications for austerity policies around the world[^herndon-2014]. In 2006, five papers were retracted due to software that transposed two columns of crystallography data[^miller-2006]. More recently, a bug was found in a paper on psychedelic drugs that was subsequently retracted[^herzog-2022]. It's difficult to know how common bug-dependent results are, but the idea that many computations are not practically possible without the use of a computer is trivially true: even short, routine computations require billions of operations that would be nearly impossible to confirm any other way.
+The complexity of code, and amount of computing power used, has made it more likely that a finding is only discernable by asking a computer. For all but the simplest analyses, checking computational results by hand is no more feasible than checking by naked eye observations made under a microscope. So the modern computer has begun to resemble any other instrument in that the findings themselves depend on it. A bug may convince both researchers and readers of something that's not real, in other words.
 
-The effort to verify even a short piece of code, or produce a small stochastic process, through other means would generally be immense. And formal verification of software and hardware is incredibly rare with only a few applications such as compilers ever achieving the distinction[^acm-award]. Libraries, and other dependencies, are also not immune to bugs, even ones in the scientific literature. In 2019, over 100 citing organic chemistry papers may have been affected by a Python script that didn't behave identically on different operating systems[^bhandari-2019].
+The phenomenon &mdash; results that depend on a bug &mdash; has occurred even with a simple computation with high stakes, in the case of the economics paper "Growth in a Time of Debt" in which an Excel error invalidated the conclusions and had implications for austerity policies around the world[^herndon-2014]. In 2006, five papers were retracted due to software that transposed two columns of crystallography data[^miller-2006]. More recently, a bug was found in a paper on psychedelic drugs that was subsequently retracted[^herzog-2022].  Libraries, and other dependencies, are also not immune to bugs, even ones in the scientific literature. In 2019, over 100 organic chemistry papers may have been affected by a Python script that didn't behave identically on different operating systems[^bhandari-2019]. It's difficult to know how common bug-dependent results are, but the idea that many computations are not practically possible without the use of a computer is trivially true: even short, routine computations require billions of operations that would be nearly impossible to confirm any other way.
 
 It's for these reasons that digital reproducibility can be understood as part of a spectrum[^peng-2011] that includes concerns about actual conclusions. Visualizing verification this way also ensures that nothing suggestive of an error is left out, from mundane lack of data, to lack of methods, to methodological errors. It's also possible that lack of "lower level" reproducibility materials is a sign of problems at higher ones[^wicherts-2011].
 
@@ -34,15 +34,20 @@ The lowest level of verifiability rests on "completeness,"  meaning _enough_ inf
 
 Assuming enough information has been provided to test any claims, the spectrum starts with the ability to mechanically execute the steps provided, regardless of outcome. Initiatives like [CODECHECK](https://codecheck.org.uk/) have a purposefully low bar: "check[ing that] the code runs and generates the expected number of output files."[^eglen-2019] This could be called "Runnability."
 
-#### Table 1. The Spectrum of Verifiability
+There is one discontinuity in the spectrum where results are not expected to be statistically the same (drawn from the same theoretical distribution, or the same population). Concepts like _conceptual replication_ don't fit neatly into a spectrum since the amount of confirmation is subject to interpretation. _Scientific generalizability, and replicability_ are among the highest goals of science, and may depend on support all the way down to data sharing, but defining them in terms of _what has been precisely repeated_ is beyond the current scope.
 
-* _Digital Runnability_: Analysis runs to completion and output superficially supports that it ran as intended.
-* _Digital Repeatability_: Analysis generates results, which are comparable, but may differ from the published result.
+
+#### Table 1. The Reproducibility Spectrum
+
+* _Digital Runnability_: Analysis runs to completion and output superficially supports that it ran as intended. The right number of files is produced, the files are of the right kind, have the right column names, etc.
+* _Digital Repeatability_: Analysis generates results, which are comparable, but may differ from the published result. The values in the output make sense (they're numbers when they should be numbers, plots when they should be plots, etc.) but the precise values may differ from those in the paper.
 * _Digital Reproducibility_: Analysis runs and output is the same as the published result.
-* _Digital Reimplementation_: Analysis runs after being rewritten without common libraries and code that could perpetuate errors in the original. Analogous to Scientific Generalizability.
-* _Scientific Conceptual Replicability_: Different methods confirm the published result.
-* _Scientific Reproducibility_: Same methodology on the same statistical population confirm the published result. Also known as direct, or exact replication.
-* _Scientific Replicability_: Same methodology with a different statistical population confirm the published result.
+* _Digital Reimplementation_: Analysis runs after being rewritten without common libraries and code that could perpetuate errors in the original.
+* _Scientific Reproducibility_: Same methodology on the same statistical population confirms the published result. Also known as direct, or exact replication.
+
+#### Table 2. The Generalizability Spectrum
+
+* _Scientific Replicability_: Same methodology with a different statistical population confirms the published result.
 * _Scientific Generalizability_: Different analysis on a different statistical population confirms the published result.
 
 Note: The definition that goes with the word for some of these terms varies by discipline[^nas-2019].
@@ -199,8 +204,6 @@ https://doi.org/10.1016/j.jesp.2015.10.002.
 [^osc-2015]: Open Science Collaboration. PSYCHOLOGY. Estimating the reproducibility of psychological science. Science. 2015 Aug 28;349(6251):aac4716. doi: 10.1126/science.aac4716. PMID: 26315443.
 
 [^firestein-2016]: Firestein, Stuart, Failure: Why Science is So Successful. Oxford University Press, 2016
-
-[^acm-award]: Software System Award Goes to Three for Pioneering Open Source Initiatives. awards.acm.org/software-system. Accessed 26 Sept. 2022.
 
 [^popper-1959]: K. R. Popper, The Logic of Scientific Discovery (Basic Books, Inc., 1959).
 
